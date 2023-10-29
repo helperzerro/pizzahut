@@ -29,7 +29,8 @@ export default function Navbar() {
         <a href="/" className="text-[#c8102e]">
           Home
         </a>
-        <a href="/orderTracking">My orders</a>
+
+        <a href="https://ppizzahut.netlify.app/orderTracking">My orders</a>
 
         <div className="cursor-pointer">My Rewards</div>
         <div>

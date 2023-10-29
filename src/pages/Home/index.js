@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Address, Footer, IndexNavbar } from "../../components";
+import { Navbar, Address, Footer, MenuNavbar } from "../../components";
 import Promo from "../../images/tablet-banner-blacktober.jpg";
 import DealSlider from "../../components/DealSlider";
 
@@ -32,7 +32,7 @@ export default function Home() {
 
       <Footer />
 
-      <IndexNavbar />
+      <MenuNavbar />
     </>
   );
 }

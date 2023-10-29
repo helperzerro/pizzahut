@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function IndexNavbar() {
+export default function MenuNavbar() {
   return (
     <div className="bg-white fixed left-0 right-0 bottom-0">
       <div className="flex justify-around xl:w-7/12 xl:mx-auto p-2">
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center cursor-pointer">
           <img
             src="https://static-cdn-ph.pizzahut.co.id/icons/home-active.png"
             alt="Home"
@@ -13,7 +13,7 @@ export default function IndexNavbar() {
           <span className="text-[#C8102E] text-xs">Home</span>
         </div>
 
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center cursor-pointer">
           <img
             src="https://static-cdn-ph.pizzahut.co.id/icons/shopping-list.png"
             alt="My Order"
@@ -21,7 +21,8 @@ export default function IndexNavbar() {
           />
           <span className="text-xs">My Order</span>
         </div>
-        <div className="flex flex-col items-center">
+
+        <div className="flex flex-col items-center cursor-pointer">
           <img
             src="https://static-cdn-ph.pizzahut.co.id/icons/ph-rewards.gif"
             alt="Hut Rewards"
@@ -30,7 +31,7 @@ export default function IndexNavbar() {
           <span className="text-xs">Hut Rewards</span>
         </div>
 
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center cursor-pointer">
           <img
             src="	https://static-cdn-ph.pizzahut.co.id/icons/cart.png"
             alt="Cart"
@@ -39,7 +40,7 @@ export default function IndexNavbar() {
           <span className="text-xs">Cart</span>
         </div>
 
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center cursor-pointer">
           <img
             src="	https://static-cdn-ph.pizzahut.co.id/icons/user.png"
             alt="Account"

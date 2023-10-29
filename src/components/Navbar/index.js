@@ -3,12 +3,12 @@ import logo from "../../images/logo.png";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between py-4 px-3">
+    <div className="flex justify-center container mx-auto px-3 md:py-4 md:justify-between">
       <div>
         <img
           src={logo}
           alt="logo-pizza"
-          className="object-contain h-16 w-16 cursor-pointer"
+          className="object-contain h-14 w-14 cursor-pointer"
         />
       </div>
 

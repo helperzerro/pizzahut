@@ -17,13 +17,13 @@ export default function Address() {
   };
 
   return (
-    <div className=" relative -top-5">
+    <div className="relative -top-[80px] md:-top-48 h-60 md:h-28">
       <div className="grid grid-flow-cols justify-center">
         <div
           className={
             isActiveDelivery
-              ? "flex items-center h-[64px] w-60 justify-center mr-[2px] rounded-t-lg bg-white z-10 cursor-pointer"
-              : "flex items-center self-end h-[54px] mt-[10px] w-60 justify-center mr-[2px]  rounded-t-lg bg-[#d9dde3] z-10 cursor-pointer"
+              ? "flex items-center h-[64px] w-full justify-center mr-[2px] rounded-t-lg bg-white z-10 cursor-pointer"
+              : "flex items-center self-end h-[54px] mt-[10px]  w-full justify-center mr-[2px]  rounded-t-lg bg-[#d9dde3] z-10 cursor-pointer"
           }
           onClick={handleButtonClickDelivery}
         >
@@ -50,8 +50,8 @@ export default function Address() {
         <div
           className={
             isActiveTakeaway
-              ? "flex items-center h-[64px] w-60 justify-center rounded-t-lg bg-white z-10 cursor-pointer"
-              : "flex items-center self-end h-[54px] w-60 justify-center rounded-t-lg bg-[#d9dde3] z-10 cursor-pointer"
+              ? "flex items-center h-[64px]  w-full justify-center rounded-t-lg bg-white z-10 cursor-pointer"
+              : "flex items-center self-end h-[54px]  w-full justify-center rounded-t-lg bg-[#d9dde3] z-10 cursor-pointer"
           }
           onClick={handleButtonClickTakeaway}
         >
@@ -75,20 +75,20 @@ export default function Address() {
           </span>
         </div>
 
-        <div className="col-span-2 p-5 shadow-custom">
+        <div className="col-span-2 p-5 shadow-custom bg-white">
           <span className="font-semibold text-[15px]">
             Please type your address
           </span>
 
-          <div className="flex border justify-between rounded-r-md">
+          <div className="flex border justify-between rounded-r-md ">
             <input
               placeholder={
                 isActiveDelivery ? "e.g. Jalan Tebet Raya" : "Tulis Alamat"
               }
-              className="px-4 text-[1.2rem] w-full outline-none"
+              className="px-4 text-[1.2rem] w-8/12 outline-none truncate"
             />
 
-            <button className="rounded-md w-[73px] h-12 bg-[#c8102e] text-[17px] px-2 text-white">
+            <button className="rounded-md w-3/12 h-12 bg-[#c8102e] text-[17px] px-2 text-white">
               Search
             </button>
           </div>

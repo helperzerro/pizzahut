@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.custom-background {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIA…fuL/wD9xl+QfuNZ3+jttX75zv/Pb8o2oAAAAASUVORK5CYII=");
+  background-size: cover; /* Untuk menyesuaikan ukuran gambar dengan elemen */
+  /* Properti lain sesuai kebutuhan Anda */
+}

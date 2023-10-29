@@ -8,7 +8,7 @@ export default function Router() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/order-tracking" element={<MyOrders />} />
+        <Route path="/orderTracking" element={<MyOrders />} />
       </Routes>
     </BrowserRouter>
   );

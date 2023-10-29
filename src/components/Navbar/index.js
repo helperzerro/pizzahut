@@ -29,7 +29,7 @@ export default function Navbar() {
         <a href="/" className="text-[#c8102e]">
           Home
         </a>
-        <a href="/order-tracking">My orders</a>
+        <a href="/orderTracking">My orders</a>
 
         <div className="cursor-pointer">My Rewards</div>
         <div>
